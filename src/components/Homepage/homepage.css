@@ -1,0 +1,45 @@
+.header-nav {
+ text-align: center;
+ position: absolute;
+ top: 1%;
+ left: 50%;
+ transform: translate(-50%, -9%);
+ width: 100%;
+ z-index: 1000;
+}
+.header-nav span {
+ text-transform: uppercase;
+ display: block;
+}
+.head{
+    text-align: center;
+}
+* {
+ box-sizing: border-box;
+}
+body {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ height: 100vh;
+ width: 100vw;
+ background: black;
+}
+h1 {
+ color: #333;
+ font-family: tahoma;
+ font-size: 3rem;
+ font-weight: 100;
+ line-height: 1.5;
+ text-transform: uppercase;
+ white-space: nowrap;
+ overflow: hidden;
+ position: relative;
+ width: 550px;
+}
+
+h1 span {
+ font-size: 30px;
+ margin-left: 15px;
+ color: black;
+}
